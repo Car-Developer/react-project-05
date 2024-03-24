@@ -1,0 +1,45 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+.card {
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin: 40px 40px;
+  background-color: #ffffff;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #171f46;
+  font-weight: bold;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  text-align: center;
+}
+
+.container {
+  text-align: end;
+}
+
+@media screen and (max-width: 790px) {
+  .card {
+    margin: 30px;
+  }
+}
